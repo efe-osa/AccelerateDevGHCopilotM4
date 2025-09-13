@@ -51,7 +51,7 @@ Library App is a modular application designed to manage library operations such 
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/efe-osa/AccelerateDevGHCopilotM4
    ```
 
 2. Open the solution file `AccelerateDevGHCopilot.sln` in Visual Studio.
@@ -73,4 +73,3 @@ Library App is a modular application designed to manage library operations such 
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
