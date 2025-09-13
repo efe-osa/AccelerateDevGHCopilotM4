@@ -48,27 +48,41 @@ Library App is a modular application designed to manage library operations such 
 
 ## Usage
 
-1. Clone the repository:
+### Setup and Run
 
-   ```bash
-   git clone https://github.com/efe-osa/AccelerateDevGHCopilotM4
-   ```
+1. **Clone the repository:**
 
-2. Open the solution file `AccelerateDevGHCopilot.sln` in Visual Studio.
+```bash
+git clone https://github.com/efe-osa/AccelerateDevGHCopilotM4
+cd AccelerateDevGHCopilotM4
+```
 
-3. Build the solution to restore dependencies and compile the code.
+2. **Restore dependencies and build the solution:**
 
-4. Run the console application:
+```bash
+dotnet restore
+dotnet build
+```
 
-   ```bash
-   dotnet run --project src/Library.Console/Library.Console.csproj
-   ```
+3. **Open the solution (optional):**
 
-5. Execute unit tests:
+- Open `AccelerateDevGHCopilot.sln` in Visual Studio or the project in your preferred IDE for development.
 
-   ```bash
-   dotnet test tests/UnitTests/UnitTests.csproj
-   ```
+4. **Run the console application:**
+
+```bash
+dotnet run --project src/Library.Console/Library.Console.csproj
+```
+
+5. **Execute unit tests:**
+
+```bash
+dotnet test tests/UnitTests/UnitTests.csproj
+```
+
+6. **(Optional) Add new projects or references:**
+
+- Use Visual Studio or `dotnet` CLI to add new projects or references as needed for development or testing.
 
 ## License
 
